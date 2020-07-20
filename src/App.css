@@ -1,38 +1,45 @@
 .App {
   text-align: center;
+  margin: 50px 275px;
+  border: 2px solid rgb(80, 76, 76);
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("/./LDNPunderground.png");
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Mode-selector {
+  padding-top: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Line-selector {
+  padding-top: 25px;
+  margin-bottom: 50px;
+}
+
+.Route-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 25px;
+}
+
+.Route {
+  border: 2px solid #113b92;
+  background-color: #113b92;
+  border-radius: 5px;
+  padding: 25px 25px;
+  font-weight: 600;
   color: white;
+  width: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.Arrow {
+  margin: 0 50px;
+  align-self: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Line {
+  justify-content: flex-start;
 }
