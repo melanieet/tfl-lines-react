@@ -16,7 +16,7 @@ body {
 
 .Line-selector {
   padding-top: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .Route-section {
@@ -33,6 +33,7 @@ body {
   font-weight: 600;
   color: white;
   width: 200px;
+  height: 100px;
 }
 
 .Arrow {
