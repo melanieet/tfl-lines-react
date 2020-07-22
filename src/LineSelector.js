@@ -14,7 +14,7 @@ function LineSelector({ selectedMode }) {
   }, [selectedMode]);
 
   function handleChange(event) {
-    let selectedLine = event.target.value; // What does this even mean?
+    let selectedLine = event.target.value;
     setSelectedLine(selectedLine);
   }
 
